@@ -10,4 +10,4 @@ It contains-
 > 2. Array Questions
 > 3. Functions
 > 4. String Question
-* and other basic questions *
+*and other basic questions*

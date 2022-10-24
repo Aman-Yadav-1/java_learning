@@ -1,4 +1,4 @@
-# Java : DataStructure & Algorithm
+# Java : Data Structure & Algorithm
 
 <b>What is Data Structure & Why learn it?<b> <br>
      <p> A data structure is a named location that can be used to store and organize data.<br>

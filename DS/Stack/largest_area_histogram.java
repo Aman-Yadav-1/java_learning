@@ -5,7 +5,7 @@ import java.util.Stack;
 
 public class largest_area_histogram {
     public static void main(String [] args) throws Exception{
-        //array implementatio
+        //array implementation
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         
         int n = Integer.parseInt(br.readLine());

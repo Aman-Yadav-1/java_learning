@@ -26,7 +26,7 @@ public class infix {
                     int v2 = opnds.pop();
                     int v1 = opnds.pop();
 
-                    char opv = operation(v1, v2, optor);
+                    int opv = operation(v1, v2, optor);
                     opnds.push(opv);
                 }
                 optors.pop();
@@ -37,12 +37,21 @@ public class infix {
                     int v2 = opnds.pop();
                     int v1 = opnds.pop();
 
-                    char opv = operation(v1,v2,optor);
+                    int opv = operation(v1,v2,optor);
                     opnds.push(opv);
                 }
 
+                //ch is pushing itself now
                 optors.push(ch);
             }
+        }
+        while(optors.size() != 0){
+            char optor = optors.pop();
+            int v2 = opnds.pop();
+            int v1 = opnds.pop();
+
+            int opv = operation(v1, v2, optor);
+            opnds.push(opv);
         }
     }
 

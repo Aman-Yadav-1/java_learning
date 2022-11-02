@@ -13,7 +13,6 @@ public class infix {
         Stack<Character> optors = new Stack<>();
         for(int i = 0;i < exp.length();i++){
             char ch = exp.charAt(i);
-
             if(ch == '('){
                 optors.push(ch);
             }

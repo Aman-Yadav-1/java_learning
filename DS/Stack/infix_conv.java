@@ -41,11 +41,6 @@ public class infix_conv {
         System.out.println(postfix.pop());
         System.out.println(prefix.pop());
     }
-
-    /**
-     * @param op
-     * @return
-     */
     public static int precedence(char op){
         if(op == '+' || op == '-'){
             return 1;

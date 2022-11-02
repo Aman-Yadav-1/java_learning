@@ -21,6 +21,7 @@ public class infix_conv {
                 postfix.push(ch + "");
                 prefix.push(ch + "");
             }
+            
             else if(ch == ')'){
                 while(ops.peek() != '('){
                     process(ops,postfix,prefix);

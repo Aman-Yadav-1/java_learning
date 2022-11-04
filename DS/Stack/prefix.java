@@ -42,18 +42,19 @@ public class prefix {
     System.out.println(ps.pop());
 }
 
-public static int operation(int v1,int v2,char op){
-    if(op == '+'){
-        return v1 + v2;
+    public static int operation(int v1,int v2,char op){
+        if(op == '+'){
+            return v1 + v2;
+        }
+        else if(op == '-'){
+            return v1 - v2;
+        }
+        else if(op == '*'){
+            return v1 * v2;
+        }
+        else{
+            return v1 / v2;
+        }
     }
-    else if(op == '-'){
-        return v1 - v2;
-    }
-    else if(op == '*'){
-        return v1 * v2;
-    }
-    else{
-        return v1 / v2;
-    }
-}
+
 }

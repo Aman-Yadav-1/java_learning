@@ -36,11 +36,11 @@ public class prefix {
             is.push(ch + "");
             ps.push(ch + "");
         }
+        }
+        System.out.println(vs.pop());
+        System.out.println(is.pop());
+        System.out.println(ps.pop());
     }
-    System.out.println(vs.pop());
-    System.out.println(is.pop());
-    System.out.println(ps.pop());
-}
 
     public static int operation(int v1,int v2,char op){
         if(op == '+'){

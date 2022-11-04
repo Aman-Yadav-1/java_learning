@@ -4,10 +4,6 @@ import java.io.InputStreamReader;
 import java.util.Stack;
 
 public class prefix {
-    /**
-     * @param args
-     * @throws Exception
-     */
     public static void main(String [] args)throws Exception{
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     String exp = br.readLine();

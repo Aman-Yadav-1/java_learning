@@ -15,6 +15,7 @@ public class prefix {
 
     for(int i = exp.length() - 1;i >= 0;i--){
         char ch = exp.charAt(i);
+        
         if(ch == '+' || ch == '-' || ch == '*' || ch == '/'){
             int v1 = vs.pop();
             int v2 = vs.pop();

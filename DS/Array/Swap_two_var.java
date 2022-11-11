@@ -7,6 +7,7 @@ public class Swap_two_var {
         arr[i] = arr[j];
         arr[j] = temp;
     }
+    
     public static void main(String [] args){
         int [] arr = {22,33,44,57,23};
         

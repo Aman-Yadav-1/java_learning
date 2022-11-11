@@ -9,7 +9,6 @@ public class Searching_in_array {
         System.out.println();
         
         int [] arr = new int[n];
-        
         for(int i = 0;i < arr.length;i++){
             arr[i] = scan.nextInt();
         }

@@ -7,7 +7,6 @@ public class Pattern21
       Scanner sc = new Scanner(System.in);
       System.out.println("Please enter number of rows to print pattern: ");
       int rows = sc.nextInt();
-      
       for(a = rows; a >= 1; a--)
       {
          if(a % 2 == 0)

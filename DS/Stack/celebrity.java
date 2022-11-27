@@ -55,21 +55,13 @@ public class celebrity {
         }
 
         int pot = st.pop();
-        boolean flag  = true;
         for(int i = 0; i < arr.length; i++){
             if(i != pot){
                 if(arr[i][pot] == 0 || arr[pot][i] == 1){
-                    flag = false;
-                    break;
+                    System.out.println(pot);
                 }
             }
         }
-        
-        if(flag){
-            System.out.println(pot);
-        }
-        else{
             System.out.println("none");
-        }
     }
 }

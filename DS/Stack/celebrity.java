@@ -58,5 +58,11 @@ public class celebrity {
                 }
             }
         }
+        if(flag){
+            System.out.println(pot);
+        }
+        else{
+            System.out.println("none");
+        }
     }
 }

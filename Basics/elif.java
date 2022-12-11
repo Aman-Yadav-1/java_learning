@@ -17,5 +17,4 @@ public class elif {
 		        System.out.println(a + " is less than " + b);
 		}
 	}
-	
 }

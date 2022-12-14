@@ -19,7 +19,7 @@ import java.util.Stack;
 
 public class merge_overlapping {
     public static void main(String [] args) throws Exception{
-        
+
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
         int[][] arr = new int[n][2];
@@ -31,6 +31,7 @@ public class merge_overlapping {
         }
         mergeInter(arr);
     }
+
     public static void mergeInter(int [] [] arr){
         Pair[] pairs = new Pair[arr.length];
 
@@ -75,7 +76,10 @@ public class merge_overlapping {
             this.et = et;
         }
 
-        @Override
+        // this > other, return +ve
+        // this = other, return 0
+        // this < other, return -ve
+        
         public int compareTo(Pair other) {
             if(this.st != other.st){
                 return this.st - other.st;

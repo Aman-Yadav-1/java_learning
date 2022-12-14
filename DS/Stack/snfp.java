@@ -34,13 +34,13 @@ public class snfp {
                 num++;
 
                 while(st.size()>0){
-                    System.out.println(st.pop());
+                    System.out.print(st.pop());
                 }
             }
         }
         st.push(num);
         while(st.size()>0){
-            System.out.println(st.pop());
+            System.out.print(st.pop());
         }
     }
 }

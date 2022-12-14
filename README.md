@@ -12,4 +12,7 @@ It contains-
 > 2. Array Questions
 > 3. Functions
 > 4. String Question
-*and other basic questions*
+> 5. Stack Questions
+> 6. OOPS : Classes & Objects
+
+Explanation & References - <a href="https://www.youtube.com/playlist?list=PL-Jc9J83PIiFj7YSPl2ulcpwy-mwj1SSk">Pepcoding : DS L1 Series</a>

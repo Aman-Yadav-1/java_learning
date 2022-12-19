@@ -30,6 +30,7 @@ public class Bar_chart {
                 }
             }
             System.out.println();
+            scan.close();
         }
     }
 }

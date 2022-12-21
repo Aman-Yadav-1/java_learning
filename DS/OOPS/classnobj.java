@@ -12,7 +12,7 @@ public class classnobj {
     public static void main(String [] args){
         
         // a new object has been created as p1
-        
+
         Person p1 = new Person();
         p1.age = 10;
         p1.name= "A";
@@ -24,5 +24,11 @@ public class classnobj {
         p2.age= 20;
         p2.name = "B";
         p2.saysHi();
+
+        // introducing a reference to p1
+        Person p3 = p1;
+        p3.age = 30;
+        p3.saysHi();
+        p1.saysHi();
     }
 }

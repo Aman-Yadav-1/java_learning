@@ -11,6 +11,7 @@ public class anyBase_to_Dec {
         int d = getValInDec(n,b);
         
         System.out.println("the base " + b + " to value " + n + " is : " + d);
+        scan.close();
     }
     
     public static int getValInDec(int n,int b){

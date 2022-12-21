@@ -40,5 +40,6 @@ public class Pattern_15 {
             
             System.out.println();
         }
+        scan.close();
     }
 }

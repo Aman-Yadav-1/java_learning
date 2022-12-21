@@ -33,5 +33,6 @@ public class Pattern_17 {
             
             System.out.println();
         }
+        scan.close();
     }
 }

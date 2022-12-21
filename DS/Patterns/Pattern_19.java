@@ -49,5 +49,6 @@ public class Pattern_19 {
             }
             System.out.println();
         }
+        scan.close();
     }
 }

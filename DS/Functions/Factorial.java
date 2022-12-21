@@ -19,5 +19,6 @@ public class Factorial {
         int nfact = fact(n);
             
         System.out.println(n + "! = " + nfact);
-        }
+        scan.close();
+    }
 }

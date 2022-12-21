@@ -13,5 +13,6 @@ public class Pattern_14 {
             System.out.println(x + " * " + i + " = " + val);
             
         }
+        scan.close();
     }
 }

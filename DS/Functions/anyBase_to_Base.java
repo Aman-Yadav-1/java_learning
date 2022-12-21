@@ -13,6 +13,7 @@ public class anyBase_to_Base {
 	    int d = BasetoBase(n , b1, b2);
 	    
 		System.out.println(d);
+        scan.close();
 	}
 	
 	public static int BasetoBase(int n,int b1, int b2){

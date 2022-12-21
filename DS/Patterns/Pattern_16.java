@@ -32,5 +32,6 @@ public class Pattern_16 {
                 star ++;
             System.out.println();
         }
+        scan.close();
     }
 }

@@ -12,6 +12,7 @@ public class anyBase_subt {
 		
 		int d = getDiff(b,n1,n2);
 		System.out.println(d);
+		scan.close();
 	}
 	
 	

@@ -11,6 +11,7 @@ public class Digit_Frequency {
         int f = getDigFreq(n , d);
         
         System.out.println(f + " times");
+        scan.close();
     }
     
     public static int getDigFreq(int n,int d){

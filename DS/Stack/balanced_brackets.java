@@ -4,48 +4,48 @@ import java.util.Stack;
 
 public class balanced_brackets {
     public static void main(String [] args){
-        Scanner scan = new Scanner(System.in);
+        try (Scanner scan = new Scanner(System.in)) {
+            String str = scan.nextLine();
+            Stack<Character> st = new Stack<>();
 
-        String str = scan.nextLine();
-        Stack<Character> st = new Stack<>();
+            for(int i = 0;i<str.length();i++){
+                char ch = str.charAt(i);
 
-        for(int i = 0;i<str.length();i++){
-            char ch = str.charAt(i);
+                if(ch == '(' || ch == '{' || ch == '['){
+                    st.push(ch);
+                }
 
-            if(ch == '(' || ch == '{' || ch == '['){
-                st.push(ch);
-            }
-
-            else if(ch == ')'){
-                boolean val = handlingClosing(st, '(');
-                if(val == false){
-                    System.out.println(val);
-                    return;
+                else if(ch == ')'){
+                    boolean val = handlingClosing(st, '(');
+                    if(val == false){
+                        System.out.println(val);
+                        return;
+                    }
+                }
+                else if(ch == '}'){
+                    boolean val = handlingClosing(st, '{');
+                    if(val == false){
+                        System.out.println(val);
+                        return;
+                    }
+                }
+                else if(ch == ']'){
+                    boolean val = handlingClosing(st, '[');
+                    if(val == false){
+                        System.out.println(val);
+                        return;
+                    }
+                }
+                else{
                 }
             }
-            else if(ch == '}'){
-                boolean val = handlingClosing(st, '{');
-                if(val == false){
-                    System.out.println(val);
-                    return;
+                if(st.size() == 0){
+                    System.out.println(true);
                 }
-            }
-            else if(ch == ']'){
-                boolean val = handlingClosing(st, '[');
-                if(val == false){
-                    System.out.println(val);
-                    return;
+                else{
+                    System.out.println(false);
                 }
-            }
-            else{
-            }
-        }
-            if(st.size() == 0){
-                System.out.println(true);
-            }
-            else{
-                System.out.println(false);
-            }
+        }   
     }
 
     public static boolean handlingClosing(Stack <Character> st,char cooresoch){

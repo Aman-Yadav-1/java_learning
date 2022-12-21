@@ -26,5 +26,6 @@ public class Permutation_npr {
         int npr = nfact / nmrfact;
         
         System.out.println(n + "p" + r + " = " + npr);
+        scan.close();
     }
 }

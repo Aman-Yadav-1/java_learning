@@ -37,5 +37,6 @@ public class Pattern_10 {
             }
             System.out.println();
         }
+        scan.close();
     }
 }

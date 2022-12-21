@@ -1,5 +1,4 @@
 package DS.Array;
-import java.util.Scanner;
 
 public class Swap_two_var {
     public static void swap (int [] arr,int i,int j){

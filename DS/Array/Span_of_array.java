@@ -27,5 +27,6 @@ public class Span_of_array {
         int span = max - min;
         
         System.out.println("Span is " + span);
+        scan.close();
     }
 }

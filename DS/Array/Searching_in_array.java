@@ -25,5 +25,6 @@ public class Searching_in_array {
         }
         
         System.out.println(data + " is at " + idx);
+        scan.close();
     }
 }

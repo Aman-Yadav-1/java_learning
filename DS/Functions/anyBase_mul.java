@@ -11,6 +11,7 @@ public class anyBase_mul {
         
         int d = getProduct(b,n1,n2);
         System.out.println(d);
+        scan.close();
     }
     
     public static int getProduct(int b,int n1,int n2){
@@ -18,7 +19,6 @@ public class anyBase_mul {
         int p = 1;
         
         while(n2 > 0){
-            int d2 = n2 % 10;
             n2 = n2 / 10;
             int sprd = getProductWithSingleDig(b,n1,n2);
             rv = getSum(b,rv,sprd * p);

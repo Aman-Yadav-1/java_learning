@@ -11,6 +11,7 @@ public class anyBase_add {
         
         int d = getSum(b,n1,n2);
         System.out.println("addition is : " + d);
+        scan.close();
     }
     
     public static int getSum(int b,int n1,int n2){

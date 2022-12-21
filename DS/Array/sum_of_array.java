@@ -51,5 +51,6 @@ public class sum_of_array {
         for(int val: sum){
             System.out.println(val);
         }
+        scan.close();
     }
 }

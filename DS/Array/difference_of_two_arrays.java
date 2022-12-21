@@ -54,5 +54,6 @@ public class difference_of_two_arrays {
             System.out.print(diff[idx]);
             idx++;
         }
+        scan.close();
     }
 }

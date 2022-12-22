@@ -58,5 +58,30 @@ public class buildstack {
         customStack st = new customStack(n);
 
         String str = br.readLine();
+        while(str.equals("quit") == false){
+            if(str.startsWith("push")){
+                int val = Integer.parseInt(str.split(" ")[1]);
+                st.push(val);
+            }
+            else if(str.startsWith("pop")){
+                int val = st.pop();
+                if(val!=-1){
+                    System.out.println(val);
+                }
+            }
+            else if(str.startsWith("top")){
+                int val = st.pop();
+                if(val != -1){
+                    System.out.println(val);
+                }
+            }
+            else if(str.startsWith("size")){
+                System.out.println(st.size());
+            }
+            else if(str.startsWith("display")){
+                st.display();
+            }
+            str = br.readLine();
+        }
     }
 }

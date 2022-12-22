@@ -3,6 +3,7 @@
 /* In normal stack while pushing an element if stack is full,
 it will print stack overflow.
 In dynamic stack, stack resizes itself to get more elements as per need.
+Stack will become twice the size
  */
 package DS.OOPS;
 
@@ -28,7 +29,14 @@ public class dynamicstack {
         }
         void push(int val){
             if(tos == data.length - 1){
-                System.out.println("Stack Overflow");
+                int [] ndata = new int[2 * data.length];
+                for(int i = 0;i < data.length;i++){
+                    ndata[i] = data[i];
+                }
+                data = ndata;
+                
+                tos++;
+                data[tos] = val;
             }
             else{
                 tos++;

@@ -32,8 +32,9 @@ public class construct {
     1. Space Allocation
     2. Parsing
     3. Constructor
-        : same name as class function
-        : new is used, constructor sets properties
-        : Default constructor is there if no constructor given
-        : if parameterized constructor is allocated, then java doesn't add default constructor
+        (a) same name as class function
+        (b) new is used, constructor sets properties
+        (c) Default constructor is there if no constructor given
+        (d) if parameterized constructor is allocated, 
+                then java doesn't add default constructor throwing ultimately a runtime error
  */

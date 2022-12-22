@@ -1,6 +1,9 @@
 // building a normal stack using OOPs concepts
 package DS.OOPS;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
 public class buildstack {
     public static class customStack{
         int [] data;
@@ -44,8 +47,16 @@ public class buildstack {
                 return -1;
             }
             else{
-                return data[tos];
+                int val = data[tos];
+                return val;
             }
         }
+    }
+    public static void main(String [] args)throws Exception{
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int n = Integer.parseInt(br.readLine());
+        customStack st = new customStack(n);
+
+        String str = br.readLine();
     }
 }

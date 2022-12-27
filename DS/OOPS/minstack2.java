@@ -39,7 +39,8 @@ public class minstack2 {
                 if(data.peek()>=min){
                     return data.pop();
                 }
-                else{
+                else
+                {
                     int ov = min;
                     min = 2*min - data.pop();
                     return ov;

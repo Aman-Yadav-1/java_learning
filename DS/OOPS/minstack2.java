@@ -13,7 +13,6 @@ public class minstack2 {
         public MinStack(){
             data = new Stack<>();
         }
-
         int size(){
             return data.size();
         }

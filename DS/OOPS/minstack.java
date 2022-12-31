@@ -18,7 +18,6 @@ public class minstack {
         }
         void push(int val){
             allData.push(val);
-
             if(minData.size() == 0 || val <= minData.peek()){
                 minData.push(val);
             }

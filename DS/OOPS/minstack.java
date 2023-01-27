@@ -35,6 +35,7 @@ public class minstack {
                 return val;
             }
         }
+        
         int top(){
             if(size() == 0){
                 System.out.println("Stack Undeflow");

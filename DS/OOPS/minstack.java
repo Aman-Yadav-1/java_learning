@@ -21,7 +21,6 @@ public class minstack {
                 minData.push(val);
             }
         }
-    
         int pop(){
             if(size() == 0){
                 System.out.println("Stack Undeflow");

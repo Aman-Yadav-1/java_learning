@@ -46,6 +46,7 @@ public class minstack {
                 return allData.peek();
             }
         }
+        
         int min(){
             if(size() == 0){
                 System.out.println("Stack Undeflow");

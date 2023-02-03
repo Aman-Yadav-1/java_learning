@@ -1,5 +1,5 @@
 //not so recommended method
-package gfg_fork.Arrays.Searching;
+package gfg_java.Arrays.Searching;
 import java.util.*;
 
 // using formula

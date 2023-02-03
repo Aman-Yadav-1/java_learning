@@ -1,4 +1,4 @@
-package gfg_fork.fibonacci_numbers;
+package gfg_java.fibonacci_numbers;
 
 //fibonacci = precedor + successor= new successor
 //finomacci numbers : 0 1 1 2 3 5 8 13 21 34 55

@@ -1,5 +1,5 @@
 //best method in my opinion
-package gfg_fork.fibonacci_numbers;
+package gfg_java.fibonacci_numbers;
 
 //in this we will use Fn = {[(√5 + 1)/2] ^ n} / √5 
 

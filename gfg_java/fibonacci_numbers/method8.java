@@ -1,4 +1,4 @@
-package gfg_fork.fibonacci_numbers;
+package gfg_java.fibonacci_numbers;
 
 import java.util.*;
 

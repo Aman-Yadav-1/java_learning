@@ -1,4 +1,4 @@
-package gfg_fork.Basics;
+package gfg_java.Basics;
 import java.util.*;
 
 public class Taking_input {

@@ -1,4 +1,4 @@
-package gfg_fork.Arrays.Basics;
+package gfg_java.Arrays.Basics;
 
 public class threeD_array {
     public static void main(String [] args){

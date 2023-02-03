@@ -1,4 +1,4 @@
-package gfg_fork.Arrays.Searching;
+package gfg_java.Arrays.Searching;
 
 /* Explanation
 Applying ^ 

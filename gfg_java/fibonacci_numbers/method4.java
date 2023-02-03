@@ -1,4 +1,4 @@
-package gfg_fork.fibonacci_numbers;
+package gfg_java.fibonacci_numbers;
 
 public class method4 {
     static int fib(int n)

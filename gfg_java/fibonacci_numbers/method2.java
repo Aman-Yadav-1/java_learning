@@ -1,4 +1,4 @@
-package gfg_fork.fibonacci_numbers;
+package gfg_java.fibonacci_numbers;
 // this method will use Dynamic Programming to get fibonacci number
 // in this method we are reducing the repeated work done in method1
 public class method2 {

@@ -1,4 +1,4 @@
-package gfg_fork.fibonacci_numbers;
+package gfg_java.fibonacci_numbers;
 //alternate of method5
 public class method6 {
     static int MAX = 1000;

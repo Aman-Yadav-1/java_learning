@@ -28,3 +28,6 @@ public class binarysearch {
         System.out.println(one(arr,size));
     }
 }
+
+//Time Complexity: O(nlogn)
+//Auxiliary Space: O(1)

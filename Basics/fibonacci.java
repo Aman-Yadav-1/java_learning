@@ -1,6 +1,6 @@
 package Basics;
 import java.util.*;
-
+//applying formula Fn = {[(√5 + 1)/2] ^ n} / √5 
 public class fibonacci {
 
     static int fib(int n){

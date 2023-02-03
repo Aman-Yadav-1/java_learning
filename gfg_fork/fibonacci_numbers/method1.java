@@ -14,3 +14,6 @@ public class method1 {
         System.out.println(fib(n));
     }
 }
+
+//Time Complexity: O(n) ; considering function call stack size
+// O(1) ;Otherwise

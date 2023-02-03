@@ -2,7 +2,7 @@
  * Like first row has 2 columns
  * 2nd row has 3 columns
 */
-package gfg_fork.Arrays;
+package gfg_fork.Arrays.Basics;
 
 public class jagged_array {
     public static void main(String[] args){

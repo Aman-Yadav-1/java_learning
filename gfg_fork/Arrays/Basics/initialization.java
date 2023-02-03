@@ -1,4 +1,4 @@
-package gfg_fork.Arrays;
+package gfg_fork.Arrays.Basics;
 
 public class initialization {
         public static void main(String args[]) {

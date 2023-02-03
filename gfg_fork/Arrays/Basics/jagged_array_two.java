@@ -1,4 +1,4 @@
-package gfg_fork.Arrays;
+package gfg_fork.Arrays.Basics;
 
 public class jagged_array_two {
     public static void main(String[] args){

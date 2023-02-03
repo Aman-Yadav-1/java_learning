@@ -1,3 +1,5 @@
+# Problem
+
 Write an efficient program to count the number of 1s in the binary representation of an integer.
 
 

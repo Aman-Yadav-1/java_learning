@@ -9,6 +9,7 @@ if res is 7 than 7 = 7 ^ (3 ^ 3) ^ (4 ^ 4) ^ (5  ^ 5)
 therefore 7 is only once occuring element 
 */
 
+//Program :
 
 public class Xor {
     static int one(int arr[],int arr_size){

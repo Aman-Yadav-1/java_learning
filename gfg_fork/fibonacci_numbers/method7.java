@@ -5,7 +5,8 @@ package gfg_fork.fibonacci_numbers;
 public class method7 {
 
     static int fib(int n){
-        
+        double phi = (1+Math.sqrt(5))/2;
+        return (int) Math.round(Math.pow(phi,n)/Math.sqrt(5));
     }
     public static void main(String [] args){
         int n = 9;

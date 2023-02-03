@@ -25,3 +25,6 @@ public class Xor {
         System.out.println("Element occuring only once is : " + one(arr,n) + " ");
     }
 }
+
+//Time Complexity : O(n)
+//Space : O(1)

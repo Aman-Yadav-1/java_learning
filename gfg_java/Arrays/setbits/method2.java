@@ -8,13 +8,13 @@ public class method2 {
             return 0;
         }
         else{
-            return (n & 1) + setBits(n >> 1);
+            return (n & 1) + (n >>= 1);
         }
     }
     public static void main(String [] args){
-        Scanner scan =  new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
-        System.out.println("Number of setBits present are : " + setBits(n));
+        System.out.println("The number of setBits present are : " + setBits(n));
         scan.close();
     }
 }

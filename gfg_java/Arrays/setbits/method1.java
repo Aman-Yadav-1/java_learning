@@ -19,3 +19,5 @@ public class method1 {
         System.out.println(setBits(i));
     }
 }
+// Time Complexity: O(logn)
+// Auxiliary Space: O(1)

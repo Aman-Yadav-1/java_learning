@@ -3,7 +3,7 @@
 package gfg_java.Arrays.setbits;
 import java.util.*;
 
-public class method3 {
+public class method3_1 {
     static int setBits(int n){
         int count=0;
 

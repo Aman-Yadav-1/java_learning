@@ -38,3 +38,5 @@ public class method4 {
     }
 
 }
+//Time Complexity: O(1)
+// Auxiliary Space: O(1)

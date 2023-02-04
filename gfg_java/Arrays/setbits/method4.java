@@ -5,15 +5,19 @@ import java.util.*;
 
 public class method4 {
     static int setBits(int n){
-        if(n==0){
+        if(n == 0){
             return 0;
         }
-        else return 1+setBits(n & (n-1));
+        else
+        return 1 + setBits(n & (n-1));
     }
+
     public static void main(String [] args){
         Scanner scan = new Scanner(System.in);
+
         int n = scan.nextInt();
-        System.out.println(setBits(n));
+        System.out.println("The number of SetBits present are : " + setBits(n));
+
         scan.close();
     }
 }

@@ -21,3 +21,5 @@ public class method3_2 {
         scan.close();
     }
 }
+// Time Complexity: O(logn)
+// Auxiliary Space: O(1)

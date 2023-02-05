@@ -18,6 +18,7 @@ public class sub_arr_sum {
         }
         System.out.println("NO");
     }
+    
     public static void main(String [] args){
         int sum =5;
         int arr[] = {-1,2,4,121};

@@ -4,7 +4,7 @@ package gfg_java.Basics;
 
 public class evenOdd {
     //pseudo code
-    static void evenOdd (int a,int b) 
+    static void evenOddr (int a,int b) 
 	 {
 		//Your code here
 	     if(a%2==0){

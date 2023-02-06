@@ -8,12 +8,14 @@
      </p>
 
 It contains-
-> 1. Pattern Questions
-> 2. Array Questions
-> 3. Functions
-> 4. String Question
-> 5. Stack Questions
-> 6. OOPS : Classes & Objects
-
-Explanation & References for DS - <a href="https://www.youtube.com/playlist?list=PL-Jc9J83PIiFj7YSPl2ulcpwy-mwj1SSk">Pepcoding : DS L1 Series</a><br>
-A Course by Geeks For Geeks - <a href="https://practice.geeksforgeeks.org/courses/fork-java">Fork Java Programming</a>
+1. Pattern Questions
+2. Array Questions
+3. Functions
+4. String Question
+5. Stack Questions
+6. OPS : Classes & Objects<br>
+     
+<p>     
+References :<br>
+&nbsp&nbsp&nbsp&nbsp PepCoding : <a href="https://www.youtube.com/playlist?list=PL-Jc9J83PIiFj7YSPl2ulcpwy-mwj1SSk">DS L1 Series</a><br>
+&nbsp&nbsp&nbsp&nbsp Geeks for Geeks : <a href="https://practice.geeksforgeeks.org/courses/fork-java">Fork Java Programming</a></p>

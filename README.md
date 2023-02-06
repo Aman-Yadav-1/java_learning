@@ -15,5 +15,5 @@ It contains-
 > 5. Stack Questions
 > 6. OOPS : Classes & Objects
 
-Explanation & References - <a href="https://www.youtube.com/playlist?list=PL-Jc9J83PIiFj7YSPl2ulcpwy-mwj1SSk">Pepcoding : DS L1 Series</a><br>
-Course by Geeks For Geeks - <a href="https://practice.geeksforgeeks.org/courses/fork-java">Fork Java Programming</a>
+Explanation & References for DS - <a href="https://www.youtube.com/playlist?list=PL-Jc9J83PIiFj7YSPl2ulcpwy-mwj1SSk">Pepcoding : DS L1 Series</a><br>
+A Course by Geeks For Geeks - <a href="https://practice.geeksforgeeks.org/courses/fork-java">Fork Java Programming</a>

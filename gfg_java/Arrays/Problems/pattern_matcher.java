@@ -5,7 +5,6 @@ public class pattern_matcher {
     {
         //Your code here
         int count = 0;
-       
         for(int i=0 ; i<s.length() ; )
         {
             while(i<s.length() && s.charAt(i)=='x')

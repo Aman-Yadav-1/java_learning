@@ -1,4 +1,4 @@
-package ApnaColllege;
+package ApnaColllege.Pattern;
 import java.util.*;
 public class Pattern4 {
     public static void main(String args[]){

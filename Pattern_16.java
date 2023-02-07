@@ -1,34 +1,36 @@
-package PepCoding;
+
 import java.util.Scanner;
 
-public class Pattern_6 {
+public class Pattern_16 {
     public static void main(String [] args){
         Scanner scan = new Scanner(System.in);
         
         int n = scan.nextInt();
         
-        int star = n / 2 + 1;
-        int space = 1;
+        int star = 1;
+        int space = (2 * n) - 3;
         
         for(int i = 1;i <= n;i++){
+            int val = 1;
             for(int j = 1;j <= star;j++){
-                System.out.print("*\t");
+                System.out.print(val + "\t");
+                val++;
             }
             for(int j = 1;j <= space;j++){
                 System.out.print("\t");
             }
+            if(i == n){
+                star--;
+                val--;
+            }
+                
             for(int j = 1;j <= star;j++){
-                System.out.print("*\t");
+                val--;
+                System.out.print(val + "\t");
             }
             
-            if(i <= n / 2){
-                star--;
-                space += 2;
-            }
-            else{
-                star++;
                 space -= 2;
-            }
+                star ++;
             System.out.println();
         }
         scan.close();

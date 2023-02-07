@@ -1,3 +1,4 @@
+package PepCoding.Patterns;
 
 import java.util.Scanner;
 

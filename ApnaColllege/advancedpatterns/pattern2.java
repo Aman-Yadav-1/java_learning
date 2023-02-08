@@ -4,10 +4,10 @@ public class pattern2 {
     public static void main(String [] args){
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
-        int space=n-1;
         int star=n;
 
         for(int i=1;i<=n;i++){
+            int space=n-i;
             for(int j=1;j<=space;j++){
                 System.out.print(" ");
             }

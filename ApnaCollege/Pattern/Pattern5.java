@@ -1,16 +1,17 @@
-package ApnaColllege.Pattern;
-//ft = Floyd's Triangle
+package ApnaCollege.Pattern;
 import java.util.*;
 
-public class Pattern8_ft {
+public class Pattern5 {
     public static void main(String [] args){
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
-        int val = 1;
-        for(int i = 1;i<=n;i++){
+
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=n-i;j++){
+                System.out.print(" ");
+            }
             for(int j=1;j<=i;j++){
-                System.out.print(val+" ");
-                val++;
+                System.out.print("*");
             }
             System.out.println();
         }

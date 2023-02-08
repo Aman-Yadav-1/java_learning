@@ -1,4 +1,4 @@
-package ApnaColllege.Pattern;
+package ApnaCollege.Pattern;
 //0-1 Triangle
 import java.util.*;
 

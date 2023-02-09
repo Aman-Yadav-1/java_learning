@@ -1,6 +1,7 @@
 package striver_java.Patterns;
+import java.util.*;
 
-public class Pattern7 {
+public class Pattern6 {
     public static void main(String [] args){
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();

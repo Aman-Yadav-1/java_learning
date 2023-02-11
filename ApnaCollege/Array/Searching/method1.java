@@ -1,3 +1,5 @@
+// Linear Search Method
+
 package Searching;
 import java.util.*;
 
@@ -11,8 +13,12 @@ public class method1 {
             arr[i] = scan.nextInt();
         }
 
+        int x = scan.nextInt();
+
         for(int i = 0;i<size;i++){
-            System.out.print(arr[i]+" ");
+            if(arr[i]==x){
+                System.out.println(i);
+            }
         }
 
         scan.close();

@@ -1,5 +1,4 @@
 // Linear Search Method
-
 package Searching;
 import java.util.*;
 

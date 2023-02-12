@@ -7,12 +7,12 @@ public class replacing {
         String str = scan.next();
         String result = "";
 
-        for(int i = 0;i<str.length();i++){
+        for(int i=0;i<str.length();i++){
             if(str.charAt(i)=='e'){
-                result += 'i';
+                result+='i';
             }
             else{
-                result += str.charAt(i);
+                result+=str.charAt(i);
             }
         }
         System.out.println(result);

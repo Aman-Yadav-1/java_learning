@@ -7,6 +7,13 @@ public class minmax{
 
         int arr[] = new int [size];
 
+        for(int i=0;i<size;i++){
+            arr[i] = scan.nextInt();
+        }
+
+        int min = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
+
         scan.close();
 
     }

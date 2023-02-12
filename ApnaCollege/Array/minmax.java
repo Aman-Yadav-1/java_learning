@@ -14,7 +14,7 @@ public class minmax{
         int min = Integer.MAX_VALUE;
         int max = Integer.MIN_VALUE;
 
-        for(int i=0;i<arr.length;i++){
+        for(int i=0;i<size;i++){
             if(arr[i] < min){
                 min = arr[i];
             }

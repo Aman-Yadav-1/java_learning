@@ -18,6 +18,6 @@ It contains-
 <p>     
 References :<br>
 &nbsp&nbsp&nbsp&nbsp PepCoding : <a href="https://www.youtube.com/playlist?list=PL-Jc9J83PIiFj7YSPl2ulcpwy-mwj1SSk">DS L1 Series</a><br>
-&nbsp&nbsp&nbsp&nbsp Striver : <a href="https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/">DSA Sheet</a><br>
+&nbsp&nbsp&nbsp&nbsp Striver : <a href="https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/">A2Z DSA Sheet</a><br>
 &nbsp&nbsp&nbsp&nbsp ApnaCollege : <a href="https://www.youtube.com/playlist?list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop">Java Placement Course</a><br>
 &nbsp&nbsp&nbsp&nbsp Geeks for Geeks : <a href="https://practice.geeksforgeeks.org/courses/fork-java">Fork Java Programming</a></p>

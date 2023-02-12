@@ -2,12 +2,12 @@ import java.util.*;
 
 public class minmax{
     public static void main(String [] args){
-        Scanner scan  = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         int size = scan.nextInt();
 
-        int arr[] = new int [size];
+        int arr[] = new int[size];
 
-        for(int i=0;i<size;i++){
+        for(int i = 0;i<size;i++){
             arr[i] = scan.nextInt();
         }
 
@@ -18,16 +18,15 @@ public class minmax{
             if(arr[i] < min){
                 min = arr[i];
             }
-
             if(arr[i] > max){
                 max = arr[i];
             }
         }
 
-        System.out.println("Smallest no. in the array is : " + min);
-        System.out.println("Largest no. in the array is : " + max);
+
+        System.out.println("Smallest Number in array is : " + min);
+        System.out.println("Largest Number in array is : " + max);
 
         scan.close();
-
     }
 }

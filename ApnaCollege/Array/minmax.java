@@ -5,21 +5,21 @@ public class minmax{
         Scanner scan = new Scanner(System.in);
         int size = scan.nextInt();
 
-        int arr[] = new int[size];
+        int arr[] = new int[size]; // input array size
 
         for(int i = 0;i<size;i++){
-            arr[i] = scan.nextInt();
+            arr[i] = scan.nextInt(); // input array elements
         }
 
-        int min = Integer.MAX_VALUE;
-        int max = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE; // remember MAX_VALUE for min
+        int max = Integer.MIN_VALUE; // and MIN_VALUE for max
 
         for(int i=0;i<arr.length;i++){
             if(arr[i] < min){
-                min = arr[i];
+                min = arr[i]; // update min with arr[i]
             }
             if(arr[i] > max){
-                max = arr[i];
+                max = arr[i]; //update max with arr[i]
             }
         }
 

@@ -24,6 +24,9 @@ public class minmax{
             }
         }
 
+        System.out.println("Smallest no. in the array is : " + min);
+        System.out.println("Largest no. in the array is : " + max);
+
         scan.close();
 
     }

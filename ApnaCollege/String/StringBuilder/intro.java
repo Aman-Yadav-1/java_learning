@@ -16,5 +16,7 @@ public class intro {
 
         sb.append("deol"); //adds at last
         System.out.println(sb);
+        
+        System.out.println(sb.length());
     }
 }

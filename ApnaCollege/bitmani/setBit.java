@@ -10,7 +10,7 @@ public class setBit {
         int bm = 1<<i;
 
         int newNum = bm | n;
-        System.out.println(newNum);
+        System.out.println("setBit operation gave: " + newNum);
         scan.close();
     }
 }

@@ -1,7 +1,7 @@
 package ApnaCollege.bitmani;
 import java.util.*;
 
-public class get {
+public class getBit {
     public static void main(String [] args){
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();

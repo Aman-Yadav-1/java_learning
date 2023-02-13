@@ -1,5 +1,6 @@
 package ApnaCollege.bitmani;
 import java.util.*;
+//both clear & set bit will be performed in this
 
 public class updateBit {
     public static void main(String [] args){

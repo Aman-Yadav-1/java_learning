@@ -1,6 +1,8 @@
 package ApnaCollege.Sorting;
+
 // take biggest number and push it at end of the array
 // if element at index i is greater than element at i+1 push it after it
+
 public class bubbleSort{
     public static void print(int arr[]){
         for(int i = 0;i < arr.length;i++){

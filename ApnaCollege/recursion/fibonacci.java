@@ -7,6 +7,6 @@ public class fibonacci {
         }
     }
     public static void main(String [] args){
-        int a,b;
+        int a = ,b = ;
     }
 }

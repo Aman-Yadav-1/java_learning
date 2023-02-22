@@ -17,6 +17,6 @@ public class pow {
         int x = 2;
         int n = 3;
 
-        calcPower(x, n);
+        System.out.println(calcPower(x, n));
     }
 }

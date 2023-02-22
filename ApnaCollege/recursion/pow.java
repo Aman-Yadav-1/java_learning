@@ -16,6 +16,8 @@ public class pow {
         int x = 5;
         int n = 3;
 
-        System.out.println(calcPower(x,n));
+        int ans = calcPower(x, n);
+
+        System.out.println(ans);
     }
 }

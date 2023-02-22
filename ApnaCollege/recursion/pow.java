@@ -14,6 +14,9 @@ public class pow {
         return xPow_n;
     }
     public static void main(String [] args){
+        int x = 2;
+        int n = 3;
 
+        calcPower(x, n);
     }
 }

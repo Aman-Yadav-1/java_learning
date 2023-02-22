@@ -13,7 +13,7 @@ public class pow {
         return xPow_n;
     }
     public static void main(String [] args){
-        int x = 4;
+        int x = 5;
         int n = 3;
 
         System.out.println(calcPower(x,n));

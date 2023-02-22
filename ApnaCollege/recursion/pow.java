@@ -1,4 +1,5 @@
 package ApnaCollege.recursion;
+// stack height is n
 
 public class pow {
     public static int calcPower(int x,int n){

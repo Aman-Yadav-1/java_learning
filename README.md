@@ -7,7 +7,7 @@
      In this repository I have uploaded and implemented various DSA questions in java.<br>
      </p>
 
-It contains-
+It contains 150+ codes of-
 1. Pattern Questions
 2. Array Questions
 3. Functions

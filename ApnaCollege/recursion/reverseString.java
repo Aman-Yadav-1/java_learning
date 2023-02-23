@@ -2,7 +2,7 @@ package ApnaCollege.recursion;
 
 public class reverseString {
     public static void revStr(String str, int idx){
-        if(idx==0){
+        if(idx == 0){
             System.out.println(str.charAt(idx));
             return;
         }
@@ -11,6 +11,6 @@ public class reverseString {
     }
     public static void main(String [] args){
         String str = "abcd";
-        revStr(str, str.length()-1);
+        revStr(str,str.length()-1);
     }
 }

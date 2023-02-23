@@ -10,6 +10,7 @@ public class first_last {
             System.out.println(last);
             return;
         }
+
         char currChar = str.charAt(idx);
         if(currChar == elem){
             if(first == -1){

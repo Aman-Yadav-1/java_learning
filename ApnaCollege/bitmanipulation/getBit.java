@@ -1,4 +1,4 @@
-package ApnaCollege.bitmani;
+package ApnaCollege.bitmanipulation;
 import java.util.*;
 
 public class getBit {

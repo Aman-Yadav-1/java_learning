@@ -1,4 +1,4 @@
-package ApnaCollege.bitmani;
+package ApnaCollege.bitmanipulation;
 
 public class clearBit {
     public static void main(String [] args){

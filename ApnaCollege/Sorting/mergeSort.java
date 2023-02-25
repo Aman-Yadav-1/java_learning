@@ -1,5 +1,6 @@
 package ApnaCollege.Sorting;
 // diving given array into smaller components to perform operation easily
+// Divide & Conquer rule
 
 public class mergeSort { 
     public static void main(String [] args){

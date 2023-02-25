@@ -29,7 +29,7 @@ public class mergeSort {
             merged[x++] = arr[idx2++];
         }
         for(int i = 0, j=si; i < merged.length; i++,j++){
-                arr[j] = merged[i];
+            arr[j] = merged[i];
         }
     }
     public static void divide(int arr[], int si, int ei){

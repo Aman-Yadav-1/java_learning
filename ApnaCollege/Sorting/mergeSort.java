@@ -1,5 +1,4 @@
 package ApnaCollege.Sorting;
 
-public class mergeSort {
-    
+public class mergeSort {   
 }

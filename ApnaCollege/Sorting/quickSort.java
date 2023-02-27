@@ -19,7 +19,6 @@ public class quickSort {
         int temp = arr[i];
         arr[i] = pivot;
         arr[high] = temp;
-
         return i;
     }
     public static void quicksort(int arr[], int low, int high){

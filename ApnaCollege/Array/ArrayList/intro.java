@@ -37,5 +37,9 @@ class intro{
         for(int i=0;i<list.size();i++){
             System.out.print(list.get(i)+" ");
         }
+
+        // sorting
+        Collections.sort(list);
+        System.out.println(list);
     }
 }
